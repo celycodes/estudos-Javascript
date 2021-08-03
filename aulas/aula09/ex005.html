@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 005</title>
+    <style>
+        body {
+            background: rgb(180, 131, 226);
+            color: cornsilk;
+            font: normal 15pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiros passos com DOM</h1>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <p>Olá, mundo !!</p>
+    <div id="msg">Selecionando elementos DOM</div>
+    <script>
+        corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write('Está escrito '+ p1.innerText)
+        p1.style.color = 'pink'
+        /* var d = window.document.getElementById('msg')
+        d.style.color = 'yellow' // mudando a cor
+        d.innerText = 'Exercicio 5'  modificando o texto bt DOM */
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'pink'
+    </script>
+</body>
+</html>
