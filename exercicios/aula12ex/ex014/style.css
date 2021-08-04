@@ -4,7 +4,7 @@ body {
     
 }
 header {
-    color: rgb(56, 231, 231);
+    color: white;
     text-align: center;
 }
 section {
@@ -15,8 +15,12 @@ section {
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.849);
 }
+div {
+    text-align: center;
+    padding: 8px;
+}
 footer {
-    color: rgb(56, 231, 231);
+    color: white;
     text-align: center;
     font-style: italic;
 }
