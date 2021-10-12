@@ -1,2 +1,2 @@
-var nome = 'World';
-console.log('Hello, ' + nome);
+var nome = 'World'
+console.log('Hello, ' + nome)
