@@ -1,0 +1,15 @@
+{
+  "name": "09-06-union-vs-intesection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "init": "tsc --init"
+  },
+  "author": "celenny",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
+}
